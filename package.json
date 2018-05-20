@@ -1,6 +1,6 @@
 {
-  "name": "_browser",
-  "version": "1.0.0",
+  "name": "browser-simple-detection",
+  "version": "1.1.0",
   "description": "browser detection util",
   "main": "index.js",
   "repository": "https://github.com/freeliu/_browser.git",

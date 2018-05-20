@@ -30,6 +30,8 @@ let browser = (function () {
             browser.isSafari = true;
         }
     }
+    browser.isWechat=ua.indexOf('micromessenger')>-1
+
     return browser;
 })()
 
