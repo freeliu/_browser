@@ -1,7 +1,7 @@
 //浏览器信息
-let browser = (function () {
-    let browser = {isIE: false, ieVersion: -1, isEdge: false};
-    let ua = window.navigator.userAgent.toLowerCase();
+var browser = (function () {
+    var browser = {isIE: false, ieVersion: -1, isEdge: false};
+    var ua = window.navigator.userAgent.toLowerCase();
 
     //用于检测是否ie，及其版本
     if (ua.indexOf("edge") > -1) {
